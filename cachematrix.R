@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This function stores the matrix and inverse of matrix in the session. The inverse of matrix is calculated once
+## only, on all the subsequent calls the functions returns the cached value of inverse.
+## There are some boiler plate validations of the matrix such as if it is the matrix class or if it is a square matrix
 
 ## Validates: If the class is matrix class, also if matrix is square/invertible
 ## set, get matrix, setinv and getinv 
